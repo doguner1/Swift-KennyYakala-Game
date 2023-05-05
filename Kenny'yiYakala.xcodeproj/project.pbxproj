@@ -16,6 +16,7 @@
 		4B1B41912990414E0091A211 /* Kenny_yiYakalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B41902990414E0091A211 /* Kenny_yiYakalaTests.swift */; };
 		4B1B419B2990414E0091A211 /* Kenny_yiYakalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B419A2990414E0091A211 /* Kenny_yiYakalaUITests.swift */; };
 		4B1B419D2990414E0091A211 /* Kenny_yiYakalaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B419C2990414E0091A211 /* Kenny_yiYakalaUITestsLaunchTests.swift */; };
+		4B33B605299074A200F87AB6 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B33B604299074A200F87AB6 /* First.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4B1B41962990414E0091A211 /* Kenny'yiYakalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kenny'yiYakalaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1B419A2990414E0091A211 /* Kenny_yiYakalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kenny_yiYakalaUITests.swift; sourceTree = "<group>"; };
 		4B1B419C2990414E0091A211 /* Kenny_yiYakalaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kenny_yiYakalaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B33B604299074A200F87AB6 /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				4B1B41792990414D0091A211 /* AppDelegate.swift */,
 				4B1B417B2990414D0091A211 /* SceneDelegate.swift */,
 				4B1B417D2990414D0091A211 /* ViewController.swift */,
+				4B33B604299074A200F87AB6 /* First.swift */,
 				4B1B417F2990414D0091A211 /* Main.storyboard */,
 				4B1B41822990414E0091A211 /* Assets.xcassets */,
 				4B1B41842990414E0091A211 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				4B1B417E2990414D0091A211 /* ViewController.swift in Sources */,
 				4B1B417A2990414D0091A211 /* AppDelegate.swift in Sources */,
+				4B33B605299074A200F87AB6 /* First.swift in Sources */,
 				4B1B417C2990414D0091A211 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,9 +439,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 85ASU83XHG;
+				DEVELOPMENT_TEAM = TMJ4UJMHSH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kenny'yiYakala/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -452,6 +457,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dogukanguner.Kenny-yiYakala";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,9 +469,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 85ASU83XHG;
+				DEVELOPMENT_TEAM = TMJ4UJMHSH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kenny'yiYakala/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,6 +487,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dogukanguner.Kenny-yiYakala";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
